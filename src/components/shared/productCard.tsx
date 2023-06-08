@@ -13,10 +13,10 @@ const slideStyle = {
   marginRight: "30px",
 };
 
-const inputCSS = {
-  textAlign: "center" as "center",
-  width: "50px",
-};
+// const inputCSS = {
+//   textAlign: "center" as "center",
+//   width: "50px",
+// };
 
 const ProductCard = (props: any) => {
   const product = props.product;

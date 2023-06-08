@@ -84,4 +84,38 @@ export const products: product[] = [
       "https://ml.thcdn.com/productimg/381/533/14557839-2215044157443080.jpg",
     ],
   },
+  {
+    id: 6,
+    category: "Zara",
+    name: "Et Vous Green Chiffon Co-Ord Blouse ",
+    price: "19.00",
+    discount: 7,
+    description:
+      "Every woman's wardrobe could do with a sophisticated shade of green. From Et Vous, this chiffon blouse comes with a super chic Bardot neckline for stretch and versatile wearing options. Finished with gorgeous floral detailing to the cuffed long sleeves, we recommend teaming it with the matching skirt S2946395_C770 to complete the look.",
+    sizes: "L",
+    color: "Yellow",
+    images: [
+      "https://ml.thcdn.com/productimg/381/533/14550743-1525058442591077.jpg",
+      "https://ml.thcdn.com/productimg/381/533/14550743-1065058442612983.jpg",
+      "https://ml.thcdn.com/productimg/381/533/14550743-1685058442637400.jpg",
+      "https://ml.thcdn.com/productimg/381/533/14550743-4955058442662543.jpg",
+    ],
+  },
+  {
+    id: 7,
+    category: "Zara",
+    name: "Et Vous Orange Cross Front Maxi Dress",
+    price: "32.00",
+    discount: 7,
+    description:
+      "What's not to love about this dress? Styled in a stunning orange shade, it features a chic cross front, a comfy tie at the neck and an elasticated waist for a personalised fit. Constructed with a super soft and lightweight material, it's finished with a beautiful frill hem to complete the look.",
+    sizes: "L",
+    color: "Yellow",
+    images: [
+      "https://ml.thcdn.com/productimg/381/533/14550775-1605045182968735.jpg",
+      "https://ml.thcdn.com/productimg/381/533/14550775-1485045183012961.jpg",
+      "https://ml.thcdn.com/productimg/381/533/14550775-1605045183058285.jpg",
+      "https://ml.thcdn.com/productimg/381/533/14550775-1095045183096379.jpg",
+    ],
+  },
 ];
