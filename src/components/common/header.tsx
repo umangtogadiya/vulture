@@ -149,7 +149,7 @@ const Header = () => {
                   <div className="single-cart-item">
                     <div className="product-image">
                       <img
-                        src={`/images/product-img/${cartItem.image}`}
+                        src={`${cartItem.image}`}
                         className="cart-thumb"
                         alt=""
                       />
