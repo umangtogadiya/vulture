@@ -1,0 +1,33 @@
+.quantity-cart {
+  padding-top: 5px;
+}
+.quantity-cart input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: transparent;
+}
+
+.cart-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #00000000;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.cart-btn:hover {
+  transform: scale(1.1);
+  background-color: #1414149c;
+}
+
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
