@@ -1,25 +1,13 @@
 import React from "react";
 import Header from "../common/header";
 import Footer from "../common/footer";
+import TopBar from "../common/topBar";
 
 const Index = () => {
   return (
     <>
       <Header />
-      <div
-        className="breadcumb_area bg-img"
-        style={{ backgroundImage: "url(/images/bg-img/breadcumb.jpg)" }}
-      >
-        <div className="container h-100">
-          <div className="row h-100 align-items-center">
-            <div className="col-12">
-              <div className="page-title text-center">
-                <h2>Checkout</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <TopBar Img={"/images/bg-img/breadcumb.jpg"} />
       <div className="checkout_area section-padding-80">
         <div className="container">
           <div className="row">
@@ -327,7 +315,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <a className="btn essence-btn">Place Order</a>
+                <a className="btn vulture-btn">Place Order</a>
               </div>
             </div>
           </div>

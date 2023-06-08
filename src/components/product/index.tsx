@@ -23,9 +23,10 @@ const Index = (props: any) => {
   const cart = useSelector((state: any) => state.cartItems.cart);
   const dispatch = useDispatch();
 
-  const productDetails = products.find(
+  const productDetails: any = products.find(
     (product) => product.id === parseInt(id)
   );
+
   useEffect(() => {
     document.title = productDetails?.name ?? "Demo Product";
   }, []);
@@ -81,8 +82,14 @@ const Index = (props: any) => {
             <h2>{productDetails?.name}</h2>
           </Link>
           <p className="product-price">
-            <span className="old-price">${productDetails?.discount}</span>$
-            {productDetails?.price}
+            {productDetails?.discount && (
+              <span className="old-price">
+                $
+                {(productDetails.price * productDetails?.discount) / 100 +
+                  parseFloat(productDetails.price)}
+              </span>
+            )}
+            ${productDetails.price}
           </p>
           <p className="product-desc">{productDetails?.description}</p>
           <div className="cart-form clearfix">
@@ -95,7 +102,7 @@ const Index = (props: any) => {
               <div className="cart-fav-box d-flex align-items-center">
                 <button
                   onClick={() => addToCartItem(productDetails)}
-                  className="btn essence-btn"
+                  className="btn vulture-btn"
                 >
                   Add to cart
                 </button>

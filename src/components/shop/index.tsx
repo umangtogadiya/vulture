@@ -5,25 +5,13 @@ import ProductCard from "../shared/productCard";
 import { products } from "../../data/product";
 import Sidebar from "./sidebar";
 import { useSelector } from "react-redux";
+import TopBar from "../common/topBar";
 
 const Index = () => {
   return (
     <>
       <Header />
-      <div
-        className="breadcumb_area bg-img"
-        style={{ backgroundImage: "url(/images/bg-img/breadcumb.jpg)" }}
-      >
-        <div className="container h-100">
-          <div className="row h-100 align-items-center">
-            <div className="col-12">
-              <div className="page-title text-center">
-                <h2>dresses</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <TopBar Img={"/images/bg-img/breadcumb.jpg"} />
       <section className="shop_grid_area section-padding-80">
         <div className="container">
           <div className="row">

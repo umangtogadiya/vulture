@@ -220,7 +220,7 @@ const Header = () => {
               </li>
             </ul>
             <div className="checkout-btn mt-100">
-              <a href="checkout.html" className="btn essence-btn">
+              <a href="checkout.html" className="btn vulture-btn">
                 check out
               </a>
             </div>

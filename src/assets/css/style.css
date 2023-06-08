@@ -273,8 +273,7 @@ img {
   }
 }
 
-/* Essence Button */
-.essence-btn {
+.vulture-btn {
   display: inline-block;
   min-width: 170px;
   height: 50px;
@@ -289,8 +288,8 @@ img {
   letter-spacing: 1.5px;
   font-weight: 600;
 }
-.essence-btn:hover,
-.essence-btn:focus {
+.vulture-btn:hover,
+.vulture-btn:focus {
   color: #ffffff;
   background-color: #dc0345;
 }
@@ -880,7 +879,7 @@ img {
   font-family: "Ubuntu", sans-serif;
 }
 @media only screen and (max-width: 767px) {
-  .right-side-cart-area .cart-content .cart-amount-summary .essence-btn {
+  .right-side-cart-area .cart-content .cart-amount-summary .vulture-btn {
     min-width: 140px;
     width: 140px;
     padding: 0 15px;
@@ -1144,7 +1143,7 @@ img {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
 }
-.single-product-wrapper .product-description .hover-content .essence-btn {
+.single-product-wrapper .product-description .hover-content .vulture-btn {
   width: 100%;
 }
 .single-product-wrapper .favme {

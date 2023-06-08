@@ -25,7 +25,7 @@ const Index = () => {
               <span>telephone:</span> +12 34 567 890
             </p>
             <p>
-              <a href="mailto:contact@essence.com">contact@essence.com</a>
+              <a href="mailto:contact@vulture.com">contact@vulture.com</a>
             </p>
           </div>
         </div>

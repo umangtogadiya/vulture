@@ -19,7 +19,7 @@ const ImageSlider = (props: any) => {
   return (
     <Slider {...settings} className="single_product_thumb">
       {images.map((img: string) => {
-        return <img src={`${img}`} alt={img} />;
+        return <img src={`${img}`} alt={img} key={Math.random()} />;
       })}
     </Slider>
   );

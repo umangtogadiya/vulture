@@ -19,7 +19,7 @@ const ProductSlider = (props: any) => {
   return (
     <Slider {...settings} className="single_product_thumb">
       {products.map((product: any) => {
-        return <ProductCard key={product.id} product={product} />;
+        return <ProductCard key={Math.random()} product={product} />;
       })}
     </Slider>
   );

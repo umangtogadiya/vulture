@@ -92,14 +92,14 @@ const ProductCard = (props: any) => {
             <div className="add-to-cart-btn">
               <a
                 onClick={() => addToCartItem(product)}
-                className="btn essence-btn"
+                className="btn vulture-btn"
               >
                 Add to Cart
               </a>
             </div>
           ) : (
             <div className="add-to-cart-btn">
-              <Link to={`/product/${product.id}`} className="btn essence-btn">
+              <Link to={`/product/${product.id}`} className="btn vulture-btn">
                 View
               </Link>
             </div>
